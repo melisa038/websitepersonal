@@ -1,0 +1,70 @@
+body{
+    background-color: #2cbbf3;
+    background-image: url(../img/salju2.jpg);
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #a7c5ce;
+}
+.header{
+    padding: 10px;
+}
+
+.header ul li{
+    display: inline-block;
+    margin-top: -10px;
+    margin-right: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    color: #01607a;
+    font-weight: bold;
+}
+
+.banner {
+    height: 343px;
+    background-image: url(../img/lebaran.jpg);
+    background-position: center;
+    border-top: 10px solid #2cbbf3;
+    border-bottom: 10px solid #2cbbf3;
+    
+}
+.isi{
+    padding: 10px;
+}
+
+.isi .penulis{
+    margin-top: -20px;
+    font-size: 9pt;
+}
+
+p{
+    font-size: 12pt;
+}
+
+.footer{
+    height: 55px;
+    background-color: #b7d7e0;
+    padding: 10px;
+
+}
+.footer .copy{
+    text-align: center;
+    font-weight: bold;
+}
+
